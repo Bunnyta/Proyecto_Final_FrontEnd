@@ -1,0 +1,378 @@
+
+.main-nav {
+  background: #274472;
+  padding: 1.25rem 6%;
+  box-shadow: 0 5px 12px 5px grey;
+  display: flex;
+  align-items:start;
+  justify-content:space-around;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: #ffffff ;
+}
+
+.main-nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.navbar-brand img{
+  width: 30px;
+  height: 30px;
+  
+}
+
+
+.home-header {
+  margin-top: 63px;
+  width: 100%;
+  height: 45vh;
+  background: url(../header.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  color: #274472;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+ 
+}
+
+.home-header h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  padding-left: 100px;
+}
+
+.home-header p {
+  padding-bottom: 2rem;
+  font-size: 1.5rem;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+  width: 80%;
+  text-align: start;
+  padding-left: 80px;
+}
+
+.login {
+ 
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login .btn {
+  background-color: #41729F;
+}
+
+.profile {
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.register {
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+main {
+  margin: auto;
+  padding: 3rem 0 4rem 0;
+  width: 80%;
+  min-height: calc(100vh - 59px);
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+
+
+/* TARJETAS */
+.card {
+  width: 40%;
+  padding: 1rem;
+  display: grid;
+  flex-direction: column;
+  align-items:center;
+  justify-content:space-around;
+ 
+}
+
+.card .content {
+  border: 1px solid #cccccc;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.card .content img {
+  width: 100%;
+  height: 100%
+  
+}
+
+.card .content h4 {
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  padding: 1rem 0;
+  width: 85%;
+  margin: auto;
+  border-bottom: 2px solid #cccccc;
+  text-align: center;
+}
+
+.card .content ul {
+  padding: 1rem;
+}
+
+.card .ingredients {
+  padding: 0 7.5%;
+  margin-top: 1rem;
+  border-bottom: 1px solid #cccccc;
+}
+
+.card .ingredients li {
+  text-transform: capitalize;
+  margin-bottom: 0.25rem;
+}
+
+.card .price {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 1.5rem 0 0.5rem 0;
+}
+
+.card .btn-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+ 
+ 
+}
+
+.card .btn-row .btn-primary {
+  background-color: #5885AF;
+
+}
+
+.card .btn-row .btn-secondary{
+  background-color: #274472
+  
+}
+
+
+
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  border-top: 2px solid #cccccc;
+  width: 90%;
+  margin: auto;
+  background: #f9f8f9;
+  font-size: 15px;
+}
+
+
+.pizza-view {
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 3px;
+  margin-top: 63px;
+}
+
+.pizza-view .image {
+  width: 50%;
+ 
+}
+
+.pizza-view .image img {
+  width:10%;
+  
+ 
+  
+}
+
+.pizza-view .content {
+  width: 50%;
+  padding: 1rem;
+  
+}
+
+.pizza-view .content h4 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px, solid #cccccc;
+}
+
+.pizza-view .desc {
+  margin-bottom: 2rem;
+}
+
+.pizza-view ul {
+  margin: 1rem 0;
+  padding-left: 2rem;
+  text-transform: capitalize;
+}
+
+.pizza-view .price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.pizza-view .price-row .btn{
+  background-color: #274472
+}
+
+
+.cart {
+  margin-top: 63px;
+}
+
+.cart h2 {
+  margin-bottom: 2rem;
+}
+
+.cart li {
+  border-bottom: 2px solid #ccd;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart li img {
+  width: 85px;
+  margin-right: 1rem;
+}
+
+.cart li .product,
+.cart li .price,
+.cart li .btns {
+  display: flex;
+  align-items: center;
+}
+
+.cart li .price {
+  font-size: 18px;
+}
+
+.cart li .product h4 {
+  font-size: 1.125rem;
+  text-transform: capitalize;
+}
+
+.cart li .btn {
+  width: 30px;
+}
+.cart li .btn-primary {
+  background-color:  #5885AF
+
+}
+
+.cart li .btn-secondary{
+  background-color: #274472
+}
+
+
+.total .btn-primary-pagar{
+  background-color: #41729F
+}
+.cart li p {
+  width: 50px;
+  text-align: center;
+}
+
+.cart .total {
+  padding-left: 1rem;
+}
+
+.cart .total h3 {
+  font-size: 1.75rem;
+  margin: 2rem 0 1rem 0;
+}
+
+.cart .empty-cart {
+  font-size: 1.125rem;
+}
+
+.not-found,
+.payment {
+  text-align: center;
+  padding-top: 9rem;
+}
+
+.not-found h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.not-found p {
+  margin-bottom: 3rem;
+}
+
+.payment i {
+  font-size: 5rem;
+  margin-bottom: 3rem;
+  display: inline-block;
+}
+
+
+@media (max-width: 992px) {
+  .card {
+    width: 50%;
+  }
+}
+
+@media (max-width: 968px) {
+  .pizza-view .image {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .pizza-view .content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 592px) {
+  .home-header {
+    height: 50vh;
+  }
+
+  .home-header h1 {
+    font-size: 2rem;
+  }
+
+  .home-header p {
+    font-size: 1.5rem;
+  }
+
+  main {
+    width: 90%;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+}

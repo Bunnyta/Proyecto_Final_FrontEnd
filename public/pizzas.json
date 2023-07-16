@@ -1,0 +1,35 @@
+[
+  {
+    "desc": "El Curso Introductorio de JavaScript es una excelente oportunidad para adentrarte en el fascinante mundo de la programación web. JavaScript es uno de los lenguajes de programación más utilizados y versátiles en el desarrollo de sitios web interactivos y aplicaciones modernas. En este curso, aprenderás los fundamentos de JavaScript, desde los conceptos básicos hasta las técnicas más avanzadas, para que puedas crear sitios web dinámicos y funcionales.",
+    "id": "P001",
+    "img": "javascript.png",
+    "ingredients": ["Introducción a JavaScript", "Variables y Tipos de Datos", "Operadores y Expresiones", "Estructuras de Control", "y más"],
+    "name": "Javascript",
+    "price": 200000
+  },
+  {
+    "desc": "El Curso Introductorio de Angular es una oportunidad única para aprender los fundamentos de uno de los frameworks de desarrollo web más populares y poderosos. Angular, desarrollado por Google, es utilizado por miles de empresas para construir aplicaciones web dinámicas y escalables. En este curso, te sumergirás en el mundo de Angular y adquirirás las habilidades necesarias para desarrollar aplicaciones web modernas y de alto rendimiento.",
+    "id": "P003",
+    "img": "Angular-js.jpg",
+    "ingredients": ["Introducción a Angular", "Configuración del entorno", "Componentes y Directivas", "Enlace de datos (Data Binding)", "y más"],
+    "name": "Angular",
+    "price": 100000
+  },
+  {
+    "desc": "El Curso Introductorio de Python es una oportunidad única para adentrarte en el fascinante mundo de la programación con uno de los lenguajes más versátiles y populares: Python. Ampliamente conocido por su sintaxis clara y legible, Python es utilizado en una amplia variedad de aplicaciones, desde el desarrollo web hasta la inteligencia artificial. En este curso, aprenderás los conceptos fundamentales de Python y cómo aplicarlos para resolver problemas y crear tus propias aplicaciones.",
+    "id": "P004",
+    "img": "python.webp",
+    "ingredients": ["Introducción a Python", "Variables y Tipos de Datos", "Estructuras de Control", "Funciones en Python", "y más"],
+    "name": "Python",
+    "price": 200000
+  },
+  {
+    "desc": "El Curso Introductorio de React es una oportunidad emocionante para sumergirte en el mundo de uno de los frameworks de JavaScript más populares y demandados en la actualidad. React, desarrollado por Facebook, es una biblioteca de código abierto que permite construir interfaces de usuario interactivas y reactivas. En este curso, aprenderás los conceptos fundamentales de React y cómo utilizarlo para desarrollar aplicaciones web modernas y eficientes.",
+    "id": "P002",
+    "img": "react.jpg",
+    "ingredients": ["Introducción a React", "Componentes en React", "Estado y Ciclo de Vida", "JSX (JavaScript XML)", "y más"],
+    "name": "React",
+    "price": 200000
+  }
+  
+]
